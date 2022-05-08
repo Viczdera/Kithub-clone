@@ -36,159 +36,80 @@ ul{
     font-size: 0.875rem;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 616972,
-  'wght' 200,
-  'GRAD' 0,
-  'opsz' 48;
-  color:#616972;
-  font-size: 1.8rem !important;
-  transition: all 0.5s ease;
+/*REVIEW SECTION STYLES*/
+#review-section{
+    padding-top:50px;
+    padding-bottom:25px
 }
 
-#course-content{
-    padding-top:60px;
-    padding-bottom: 80px;
+.review-intro{
+    margin-bottom:50px;
 }
 
-/*ACCORDION STYLES*/
-.accordion{
-    margin-bottom:40px;
+.review-intro h2{
+    margin-bottom:10px;
+    margin-top:0;
 }
 
-.accordion-item{
-    position: relative!important;
+.comment-card{
+    background-color: #fff;
+    padding: 1.25rem 1.25rem;
+    margin-bottom: 30px;   
+    border-radius:0.188rem; 
 }
 
-.accordion-button::after{
-    display: none;
+.card-grid >*:first-of-type .comment-card{
+    background-color: #2052EB;
 }
 
-.accordion-button{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    transition: transform 0.2s ease-in-out;
-    display: flex;
-    align-content: center;
-    padding-top:25px;
-    padding-bottom:10px;
-    font-weight:600;
-    color:#222222;
+.card-grid >*:first-of-type .comment-card .comment, .card-grid >*:first-of-type .comment-card .name{
+    color:#ffffff;
 }
 
-.accordion-button > div{
+.card-grid >*:first-of-type .comment-card .role{
+    color:#a6baf7;
+}
+
+.comment{
+    margin-bottom: 30px;
+}
+
+.profile{
     display: flex;
     align-items: center;
-    margin-left: -0.5rem;
 }
 
-.accordion-button:focus{
-    box-shadow: none!important;
-    border: 0;
-}
-
-
-.accordion-button:not(.collapsed) {
-    color: inherit;
-    background-color: inherit;
-    
-}
-
-.content-summary{
-    font-weight:400;
-}
-
-.accordion-body{
-    padding-top: 10px;
-}
-
-.accordion-body ul{
-    list-style: none;
-    padding-left: 0;   
-}
-
-.accordion-body li{
-    display: flex!important;
-    color:#3F495E;
-}
-
-.accordion-body li:hover .list-icon{
-    color:#2052EB;
-}
-
-
-
-.list-icon{
-    width:1rem;
-    height:1rem;
-    color:#A3ACB5;
-}
-
-.accordion-button:not(.collapsed) .material-symbols-outlined{
-    transform: rotate(180deg);
-}
-
-/*COURSE PRICING CARD*/
-#course-content .card-header{
-    border-bottom: 0;
-    padding:16px;
-}
-
-#course-content .card-body{
-    padding:20px;
-}
-
-.offer-list span{
-    background-color: #d2dcfb;
-    border-radius:50%;
-    width:1.25rem;
-    height:1.25rem;
-    position: relative;
+.photo{
+    border-radius: 50%;
+    width:3.375rem;
+    height: 3.375rem;
     margin-right:10px;
 }
 
-.offer-list-icon svg{
-    width:0.75rem;
-    height:0.75rem;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+.name{
+    font-weight:500;
+    color:#222222;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.offer-list .offer{
-    line-height:2rem;
-    color:#3F464D;
+.role{
+    color:#656d7e;
+    line-height: 1rem;
 }
 
-.button-set{
-    margin-top:35px;
+
+.photo img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
 }
 
-.button-set .btn{
-    padding: 0.625rem 1.563rem;
-    margin-bottom:10px;
-}
-
-.buy-btn{
-    background-color: #2052EB;
-    color:#fff;
-}
-
-.buy-btn:hover{
-    background-color: #1b46c8;
-    color: #fff;
-}
-
-.coupon-btn{
-    background-color: #d2dcfb;
-    color: #2052EB;
-}
-
-.coupon-btn:hover{
-    background-color: #D9E1FC;
-    color:#2052EB;
+@media (min-width: 992px){
+    #review-section{
+        padding-top:110px;
+        padding-bottom:40px
+    }
 }
 
 
