@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    line-height: 1.75;
+    font-weight:400;
+}
+
+
+#sign-up-section >.container > div{
+    padding:50px 0;
+    background-color: #F4F7FE;
+    border-radius:0.188rem;
+}
+
+.sign-up-text{
+    width:83.333%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.sign-up-text h1{
+    font-size: 25px;
+    color:#222222;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sign-up-text p{
+    color: #616972;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.input-group input{
+    padding:14px 16px;
+    position: relative;
+    border: 1px solid #D9DEE3;
+}
+
+.input-group .btn{
+    background-color: #2052EB;
+    position: absolute;
+    right:4px;
+    top:50%;
+    transform: translateY(-50%);
+    padding:10px 16px;
+    border-radius:0.25rem;
+    z-index: 100;
+
+}
+
+.input-group .btn:hover{
+    background-color:#1B46C8 ;
+}
+
+.input-group .btn svg{
+    color:#fff
+}
+
+@media (min-width:768px){
+
+    #sign-up-section >.container > div{
+        padding:80px 0;
+    }
+
+    .sign-up-text{
+        width:66.666% !important;
+    }
+
+    .sign-up-text h1{
+        font-size: 32px;
+        color:#222222;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .sign-up-text p{
+        padding: 0 40px;
+    }
+}
+
+@media (min-width:992px){
+    #sign-up-section >.container > div{
+        padding:100px 0;
+    }
+
+    .sign-up-text{
+        width:41.666% !important;
+    }
+}
