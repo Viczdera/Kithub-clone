@@ -13,86 +13,81 @@ body{
     font-weight:400;
 }
 
-
-#sign-up-section >.container > div{
-    padding:50px 0;
-    background-color: #F4F7FE;
-    border-radius:0.188rem;
+ul{
+    list-style: none;
 }
 
-.sign-up-text{
-    width:83.333%;
-    margin:0 auto;
-    text-align: center;
-}
-
-.sign-up-text h1{
-    font-size: 25px;
+.heading-style{
+    font-size: 1.625rem;
     color:#222222;
     font-weight: 700;
-    margin-bottom: 10px;
+    line-height: 1.47rem;
 }
 
-.sign-up-text p{
-    color: #616972;
-    margin-bottom: 25px;
-    padding: 0 20px;
+.grey-1{
+    color:#616972;
 }
 
-.input-group input{
-    padding:14px 16px;
-    position: relative;
-    border: 1px solid #D9DEE3;
+.shadow{
+    box-shadow: 0 0.188rem 0.375rem rgb(140 146 158 / 15%) !important;
 }
 
-.input-group .btn{
-    background-color: #2052EB;
-    position: absolute;
-    right:4px;
-    top:50%;
-    transform: translateY(-50%);
-    padding:10px 16px;
-    border-radius:0.25rem;
-    z-index: 100;
-
+.comment{
+    margin-bottom: 30px;
 }
 
-.input-group .btn:hover{
-    background-color:#1B46C8 ;
+.profile{
+    display: flex;
+    align-items: center;
 }
 
-.input-group .btn svg{
-    color:#fff
+.photo{
+    border-radius: 50%;
+    width:3.375rem;
+    height: 3.375rem;
+    margin-right:10px;
+}
+
+.name{
+    font-weight:500;
+    color:#222222;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.role{
+    color:#656d7e;
+    line-height: 1rem;
+    font-size: 0.875rem;
+}
+
+
+.photo img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+#featured-comment{
+    padding:25px 0;
+}
+
+#featured-comment .card{
+    border: 0!important;
+}
+
+.featured-comment-logo{
+    display: inline-block;
+    padding: 0.563rem 0.688rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight:500;
+    border-radius: 0.188rem;
+    margin-bottom: 35px;
 }
 
 @media (min-width:768px){
-
-    #sign-up-section >.container > div{
-        padding:80px 0;
-    }
-
-    .sign-up-text{
-        width:66.666% !important;
-    }
-
-    .sign-up-text h1{
-        font-size: 32px;
-        color:#222222;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-
-    .sign-up-text p{
-        padding: 0 40px;
-    }
-}
-
-@media (min-width:992px){
-    #sign-up-section >.container > div{
-        padding:100px 0;
-    }
-
-    .sign-up-text{
-        width:41.666% !important;
+    #featured-comment{
+        padding:40px 0 60px 0;
     }
 }
