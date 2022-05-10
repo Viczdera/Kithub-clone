@@ -389,10 +389,59 @@ ul{
     position: relative;
     margin-right:10px;
 }
+#course-benefits .container {
+    background-color: #F4F7FE;
+    border-radius: 0.188rem;
+}
+
+#course-benefits .hero img{
+    vertical-align: middle !important;
+    width:100%;
+}
+
+.course-benefits-text{
+    padding:40px 30px;
+    margin-right: 10px;
+}
+
+.course-benefits-text >h2{
+    font-weight:800;
+    margin-bottom:30px;
+    padding:0.3rem 0;
+    font-size:1.625rem;
+    color:#222222;
+}
+
+.course-benefits-text ul{
+    padding-left: 0;
+    
+}
+
+.course-benefits-text li{
+    margin-bottom: 20px !important;   
+}
+
+.course-benefits-text span{
+    background-color: #d2dcfb;
+    border-radius:50%;
+    width: 1.875rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    position: relative;
+    margin-right:10px;
+}
 
 .offer-list-icon svg{
     width:0.75rem;
     height:0.75rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+.benefits-list-icon svg{
+    width:1rem;
+    height:1rem;
     position: absolute;
     top:50%;
     left:50%;
@@ -550,4 +599,35 @@ ul{
   .h1-calc{
     font-size: 32px;
   }
+}
+.certification{
+    padding:15px 25px;
+    margin-top: 50px;
+    border-radius: 0.188rem;
+    border:4px solid #2052EB;
+}
+
+.cert-icon{
+    margin-right: 20px;
+}
+
+.cert-icon img{
+    max-width:70px; 
+    width:100%;
+    height:auto;
+    object-fit: cover;  
+}
+
+.cert-text h2{
+    font-size: calc(1.2875rem + 0.45vw);
+}
+
+@media (min-width:992px){
+    .course-benefits-text{
+        padding:40px 30px;
+    }
+
+    .certification{
+        padding:15px 30px;
+    }
 }
