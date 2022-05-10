@@ -1,0 +1,361 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --bkg: #F4F7FE ;
+  --txtBlack: #222222ff;
+  --txtBlue: #2052ebff;
+  --blue: #2052eb;
+  --txtGrey: #6c6b74ff;
+}
+/*global*/
+body{
+  min-width: 420px !important;
+}
+a{
+  text-decoration: none;
+}
+.text-Black{
+  color:var(--txtBlack)
+}
+.text-gray {
+  color: #3f464d;
+}
+.text-blue {
+  color: var(--txtBlue);
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-calc{
+  font-size: calc(1.325rem + 0.9vw);
+}
+.mb-10px{
+  margin-bottom: 10px;
+}
+.mb-25px{
+  margin-bottom: 25px;
+}
+.mt-30px{
+  margin-top: 30px;
+}
+.l-28px{
+  line-height: 28px;
+}
+.l-36px{
+  line-height: 36px;
+}
+.l-45px{
+  line-height: 45px;
+}
+/*Header*/
+header {
+  background-image: url("http://ballkanlab.com/themes/kithub/v1.0/assets/img/landings/header-bg-sm.svg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Navbar */
+.btn-general {
+  border: none;
+}
+.btn-general:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-blue {
+  padding: 10px 25px;
+  background-color: var(--txtBlue);
+  border: none;
+}
+.navbar {
+  width: 100%;
+  height: max-content;
+  padding: 16px 0px 8px 0px;
+}
+.navbarImg {
+  padding: 5px 0px;
+  margin-right: 16px;
+}
+.navbarImg img {
+  width: auto;
+  max-width: 106px;
+  max-height: 29px;
+  margin: 0;
+}
+.container-fluid {
+  margin: 0px auto;
+}
+.navContainer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  /* height: 64px; */
+}
+.navbar-toggler-icon,
+.navbar-icon-toggled {
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  font-size: 12px !important;
+}
+.navbar-toggler-icon {
+  background-image: url("./assets/hamburger.svg") !important;
+}
+.navbar-icon-toggled {
+  background-image: url("./assets/close.svg") !important;
+}
+
+.navLargeItems {
+  margin-left: auto !important;
+}
+.navBtn {
+  width: fit-content;
+  height: fit-content;
+  padding: 16px 0px;
+}
+.navbar-collapse {
+  background-color: #fff;
+}
+.nav-link.active {
+  color: var(--blue) !important;
+}
+.nav-link {
+  padding: 4px 16px !important;
+  font-weight: 600px !important;
+}
+.nav-link.active {
+  color: var(--blue) !important;
+}
+.dropdown-toggle::after {
+  width: 9px;
+  height: 7px;
+  margin-left: 6px;
+  border: none;
+  vertical-align: 2px;
+  background-image: url("./assets/down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 9px 7px;
+}
+.dropdown-toggle.show::after {
+  transform: rotate(180deg) translateY(0);
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+.menu-content {
+}
+.menu-content-col {
+  width: 50% !important;
+}
+/*Section one*/
+.navbar {
+  background-color: var(--bkg);
+}
+.sect1 {
+  padding: 25px 0px 25px 0px;
+}
+.banner-card-body{
+  padding: 20px 16px;
+}
+.h1-calc{
+  font-size: calc(1.375rem + 1.5vw);
+}
+.banner-card-1 {
+  position: absolute;
+  margin-left: -25%;
+  width: 200px;
+  top: 40%;
+  left: 25%;
+}
+.banner-card-2 {
+  position: absolute;
+  width: 170px;
+  top: 40%;
+  left: 80%;
+  right: 63%;
+  margin-left: -22%;
+  margin-right: 25%;
+}
+/*mailing*/
+.mail-gray-cont{
+  background:var(--bkg);
+padding: 50px 0px;
+}
+.mail-input-group{
+  border: 1px solid #D9DEE3;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
+.mail-input-group-toggle{
+  border-radius: 3px;
+  border: 1px solid var(--blue);
+}
+.mail-input{
+  border: none;
+  padding: 10px 16px;
+}
+.mail-input:focus{
+  box-shadow: none;
+}
+.mail-btn-cont a{
+  padding: 10px 16px;
+  margin: 4px;
+}
+
+/*footer*/
+.footer{
+  padding: 50px 0px 30px 0px;
+}
+.social-icons li{
+  margin-right: 5.008px !important;
+}
+.social-icons li,.social-icons li a{
+
+  width: 30px !important;
+  height: 30px !important;
+}
+.social-icons li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+  border-radius: 50% !important;
+  background-color: #d2dcfb !important;
+
+}
+.nav-link{
+  padding: 0px !important;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+.nav-link:last-child{
+  margin-right: 0px;
+}
+.reserved{
+  margin-top: 10px;
+  line-height: 28px;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner-card-1 {
+    top: 55%;
+    left: 30%;
+  }
+  .banner-card-2{
+    top: 55%;
+    left: 75%;
+    margin-left: -24%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    background-position-x: center;
+    background-position-y: top;
+  }
+  .banner-card-1 {
+    top: 40%;
+  }
+  .banner-card-2{
+    top: 40%;
+    left: 97%;
+    margin-left: -32%;
+  }
+}
+@media (min-width: 768px) {
+  .sect1 {
+    padding: 35px 0px 60px 0px;
+  }
+  .banner-card-1 {
+    left: 4%;
+  }
+  /*mailing and footer*/
+  .mail-gray-cont{
+  padding: 80px 0px;
+  }
+  .nav-link{
+    display: inline-block !important;
+    margin-bottom: 0px;
+  }
+  .reserved{
+    margin-top: 0px;
+  }
+}
+@media (min-width: 576px) {
+  .banner-card-1 {
+    width: 205px;
+  }
+  .banner-card-2{
+    width: 198px;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    background-image: url("http://ballkanlab.com/themes/kithub/v1.0/assets/img/landings/header-bg-sm.svg") !important;
+    background-repeat: no-repeat;
+    margin-bottom: 60px !important;
+    border-bottom-left-radius: 50% 350px !important;
+    border-bottom-right-radius: 50% 350px !important;
+    background-size: 100%;
+    background-position-x: center;
+    height: 700px;
+  }
+  .navbar {
+    padding: 40px 0px 8px 0px;
+  }
+  .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    align-items: center;
+    background: none;
+    /* outline: 1px solid #fff; */
+  }
+  .navContainer {
+    height: 46px;
+  }
+  .nav-item:hover > div {
+    display: block;
+  }
+  .nav-item:hover > div,
+  .dropdown-menu {
+    left: 50%;
+    transform: translate(-50%, 0) perspective(0px) rotateX(0);
+    transform-origin: 50% -10px;
+  }
+  .dropdown-menu {
+    width: max-content !important;
+  }
+  .dropdown-menu1 {
+    min-width: 496px !important;
+  }
+  /*section one*/
+  .sect1 {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .banner-card-1 {
+    top: 11%;
+  }
+  .banner-card-2{
+    top: 40%;
+    left: unset;
+  }
+   /*mailing and footer*/
+   .mail-gray-cont{
+    padding: 100px 0px;
+    }
+    .footer{
+      padding: 70px 0px 30px 0px;
+    }
+}
+@media (min-width:1200px){
+  .h1-calc{
+    font-size: 32px;
+  }
+}
