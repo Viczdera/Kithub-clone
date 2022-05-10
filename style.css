@@ -371,7 +371,18 @@
    margin-top: 10px;
    line-height: 28px;
  }
- 
+ .footer-link{
+  padding: 0px !important;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+.footer-link:hover{
+  text-decoration: underline;
+}
+.footer-link:last-child{
+  margin-right: 0px;
+}
  ul{
      list-style: none;
  }
@@ -884,3 +895,9 @@
          padding:15px 30px;
      }
  }
+ @media (max-width:765px){
+  .footer-link-cont{
+    display: flex;
+    flex-direction: column;
+  }
+}
